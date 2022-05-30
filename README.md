@@ -272,7 +272,7 @@ nginx-deployment-794f656f8b   0         0         0       34m
 
 ### Apply from a file
 
-> Commands are beautiful and useful, but bro. I'm lazy. Now I gonna create all mi configuration files.
+> Commands are beautiful and useful, but bro. I'm lazy. Now I gonna create all my configuration files.
 
 ```yaml
 apiVersion: apps/v1
@@ -343,4 +343,6 @@ nginx-deployment-7956bd8bb9   2         2         2       3m39s
 ```
 
 K8s updated my deployment and set the replicas from 1 to 2.
+
+## Services on K8S
 
